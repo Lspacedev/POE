@@ -1,7 +1,7 @@
 function Assessments() {
   const projects = [
     {
-      image: "/images/projects/hotel.png",
+      image: "/images/projects/ui.png",
       urls: [
         {
           url_name: "Frontend",
