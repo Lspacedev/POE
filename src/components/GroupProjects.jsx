@@ -19,6 +19,10 @@ function GroupProjects() {
       project_name: "Restaurant Booking App",
       description:
         "Restaurant booking app where restaurants can add and manage their restaurants",
+      members: ["Tshepo", "Reabetswe"],
+      stack: ["Reactjs", "React Native", "Node", "MongoDb"],
+      key_features: ["Authentication", "CRUD"],
+      collab_exp: "Worker together through Slack and Trello",
     },
   ];
 
@@ -29,6 +33,24 @@ function GroupProjects() {
           <img src={project.image} />
           <h3>{project.project_name}</h3>
           <p>{project.description}</p>
+          <h4>Members</h4>
+          <div className="members">
+            {project.members.map((name, k) => (
+              <div>{name}</div>
+            ))}
+          </div>
+          <div className="stack">
+            {project.stack.map((name, k) => (
+              <div>{name}</div>
+            ))}
+          </div>
+          <div className="key_features">
+            {project.key_features.map((name, k) => (
+              <div>{name}</div>
+            ))}
+          </div>
+          <p>{project.collab_exp}</p>
+
           <div className="buttons">
             {project.urls.map((obj, k) => (
               <a href={obj.url}>

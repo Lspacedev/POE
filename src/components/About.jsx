@@ -6,10 +6,9 @@ function About() {
           <h4>Hi, I'm Tshepo Mpogeng.</h4>
         </div>
         <p>
-          I am a full stack developer, based in Pretoria, South Africa. I'm
-          always seeking opportunities to strenghten knowledge of this vast
-          world of programming and hopefully play my part in advancing it
-          further.
+          I am a full stack developer, based in Pretoria, South Africa. Before
+          Codetribe, I was a self taught developer. I have enjoyed my journey at
+          Codetribe and have learned a lot.
         </p>
         <a href="./src/assets/cv.pdf" download>
           <button>Download CV</button>

@@ -245,8 +245,8 @@ input[type="submit"]:hover {
 }
 
 .GroupProjects .project {
-  width: 350px;
-  height: 500px;
+  width: 450px;
+  height: 600px;
   margin: 15px;
   box-shadow: 1px 1px 3px #0b0a0738;
   border-radius: 10px;
@@ -263,7 +263,6 @@ input[type="submit"]:hover {
 }
 .GroupProjects .project p {
   width: 100%;
-  height: 100px;
   padding: 0px 15px;
 }
 
@@ -280,8 +279,33 @@ input[type="submit"]:hover {
 }
 
 .GroupProjects .project .buttons button {
-  padding: 10px 15px;
+  padding: 0px 15px;
   outline: none;
   border: none;
   cursor: pointer;
+}
+
+.GroupProjects h4 {
+  margin: 0;
+  padding: 0px 15px;
+}
+.members {
+  display: flex;
+  padding: 0px 15px;
+}
+.stack {
+  display: flex;
+  padding: 0px 15px;
+}
+
+.key_features {
+  display: flex;
+  padding: 0px 15px;
+}
+
+.Feedback {
+  padding: 30px 150px;
+}
+.Goals {
+  padding: 30px 150px;
 }

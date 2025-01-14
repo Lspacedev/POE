@@ -6,6 +6,8 @@ import Skills from "./components/Skills";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import GroupProjects from "./components/GroupProjects";
+import Goals from "./components/Goals";
+import Feedback from "./components/FeedbackReflections";
 function App() {
   return (
     <div className="App">
@@ -20,7 +22,10 @@ function App() {
       </h3>
       <Projects />
       <GroupProjects />
-      <Contact />
+      <h3 className="header">Reflections</h3>
+      <Feedback />
+      <h3 className="header">Post-program goals</h3>
+      <Goals />
       <Footer />
     </div>
   );
