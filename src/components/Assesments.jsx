@@ -5,15 +5,12 @@ function Assessments() {
       urls: [
         {
           url_name: "Frontend",
-          url: "",
-        },
-        {
-          url_name: "Live",
-          url: "",
+          url: "https://github.com/Lspacedev/lyf",
         },
       ],
       project_name: "UI Challenge",
-      description: "Frontend UI challenge",
+      description:
+        "Frontend UI challenge, recreate a website from a given design.",
     },
   ];
 

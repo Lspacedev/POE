@@ -26,7 +26,7 @@ body,
 .Nav {
   display: flex;
   justify-content: space-between;
-  padding: 0px 150px;
+  padding: 0px 10px;
   padding-bottom: 5px;
   font-size: 1.07em;
   font-family: "Courier New", Courier, monospace;
@@ -35,7 +35,7 @@ body,
 }
 
 .Nav h3 {
-  padding: 0px;
+  padding: 0px 0px 0px 140px;
 }
 
 .links {
@@ -80,7 +80,7 @@ body,
   height: 300px;
   background-color: gray;
   border-radius: 50%;
-  background-position: 0%;
+  background-position: 90%;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -279,7 +279,7 @@ input[type="submit"]:hover {
 }
 
 .GroupProjects .project .buttons button {
-  padding: 0px 15px;
+  padding: 10px 15px;
   outline: none;
   border: none;
   cursor: pointer;
@@ -291,15 +291,20 @@ input[type="submit"]:hover {
 }
 .members {
   display: flex;
+  gap: 15px;
   padding: 0px 15px;
 }
 .stack {
   display: flex;
+  gap: 15px;
+
   padding: 0px 15px;
 }
 
 .key_features {
   display: flex;
+  gap: 15px;
+
   padding: 0px 15px;
 }
 
@@ -326,7 +331,7 @@ input[type="submit"]:hover {
 
 .Assessments .project {
   width: 450px;
-  height: 600px;
+  height: 450px;
   margin: 15px;
   box-shadow: 1px 1px 3px #0b0a0738;
   border-radius: 10px;
@@ -359,7 +364,7 @@ input[type="submit"]:hover {
 }
 
 .Assessments .project .buttons button {
-  padding: 0px 15px;
+  padding: 10px 15px;
   outline: none;
   border: none;
   cursor: pointer;

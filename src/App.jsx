@@ -31,9 +31,13 @@ function App() {
       </h3>
       <Projects />
       <GroupProjects />
-      <h3 className="header">Assessments</h3>
+      <h3 id="assessments" className="header">
+        Assessments
+      </h3>
       <Assessments />
-      <h3 className="header">Reflections</h3>
+      <h3 id="feedback" className="header">
+        Feedback And Reflections
+      </h3>
       <Feedback />
       <h3 className="header">Post-program goals</h3>
       <Goals />

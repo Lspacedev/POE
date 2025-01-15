@@ -13,7 +13,10 @@ function Nav() {
           <a href="#projects">Projects</a>
         </div>
         <div className="link">
-          <a href="#contact">Contact Me</a>
+          <a href="#assessments">Assessments</a>
+        </div>
+        <div className="link">
+          <a href="#feedback">Feedback And Reflections</a>
         </div>
       </div>
     </div>

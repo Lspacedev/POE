@@ -4,12 +4,12 @@ function Projects() {
       image: "/images/projects/hotel.png",
       urls: [
         {
-          url_name: "Frontend",
-          url: "",
+          url_name: "Client",
+          url: "https://github.com/Lspacedev/hotel-booking-app",
         },
         {
-          url_name: "Backend",
-          url: "",
+          url_name: "Admin",
+          url: "https://github.com/Lspacedev/hotel-booking-app-admin",
         },
         {
           url_name: "Live",
@@ -25,11 +25,11 @@ function Projects() {
       urls: [
         {
           url_name: "Frontend",
-          url: "",
+          url: "https://github.com/Lspacedev/online-recipe-app",
         },
         {
           url_name: "Backend",
-          url: "",
+          url: "https://github.com/Lspacedev/recipe-app-api",
         },
         {
           url_name: "Live",
@@ -44,15 +44,7 @@ function Projects() {
       urls: [
         {
           url_name: "Frontend",
-          url: "",
-        },
-        {
-          url_name: "Backend",
-          url: "",
-        },
-        {
-          url_name: "Live",
-          url: "",
+          url: "https://github.com/Lspacedev/shopping-list-app",
         },
       ],
       project_name: "Shopping List App",
@@ -63,11 +55,11 @@ function Projects() {
       urls: [
         {
           url_name: "Frontend",
-          url: "",
+          url: "https://github.com/Lspacedev/node-employee-app",
         },
         {
           url_name: "Backend",
-          url: "",
+          url: "https://github.com/Lspacedev/node-employee-app-backend",
         },
         {
           url_name: "Live",

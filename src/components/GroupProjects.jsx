@@ -5,11 +5,11 @@ function GroupProjects() {
       urls: [
         {
           url_name: "Frontend",
-          url: "",
+          url: "https://github.com/Lspacedev/restaurant-app-admin",
         },
         {
           url_name: "Backend",
-          url: "",
+          url: "https://github.com/Lspacedev/restaurant-app-backend",
         },
         {
           url_name: "Live",
