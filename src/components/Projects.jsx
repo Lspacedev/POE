@@ -18,10 +18,10 @@ function Projects() {
       ],
       project_name: "Hotel Booking App",
       description:
-        "Hotel Booking App allows admins to create and manage hotel rooms through the admin site, as well as allowing clients to book hotel rooms through the client site.",
+        "Hotel Booking App allows admins to create and manage hotel rooms(admin site), as well as allowing clients to book hotel rooms(client site).",
     },
     {
-      image: "/images/projects/shop.png",
+      image: "/images/projects/recipe.png",
       urls: [
         {
           url_name: "Frontend",
@@ -40,7 +40,7 @@ function Projects() {
       description: "Recipe App allows users to create and manage recipes",
     },
     {
-      image: "/images/projects/shop.png",
+      image: "/images/projects/shopping.png",
       urls: [
         {
           url_name: "Frontend",
@@ -69,6 +69,28 @@ function Projects() {
       project_name: "Employee App",
       description: "Employee App allows users to create and manage employees",
     },
+    {
+      image: "/images/projects/weather.png",
+      urls: [
+        {
+          url_name: "Frontend",
+          url: "https://github.com/Lspacedev/react-weather-app",
+        },
+      ],
+      project_name: "Weather App",
+      description: "A react weather app, where users can search locations",
+    },
+    {
+      image: "/images/projects/todo.png",
+      urls: [
+        {
+          url_name: "Frontend",
+          url: "https://github.com/Lspacedev/todo-list-app",
+        },
+      ],
+      project_name: "To Do App",
+      description: "A simple todo app, where users can set a task due date",
+    },
   ];
 
   return (
@@ -80,7 +102,7 @@ function Projects() {
           <p>{project.description}</p>
           <div className="buttons">
             {project.urls.map((obj, k) => (
-              <a href={obj.url}>
+              <a href={obj.url} target="_blank">
                 <button key={k}>{obj.url_name}</button>
               </a>
             ))}

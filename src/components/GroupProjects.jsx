@@ -53,7 +53,7 @@ function GroupProjects() {
 
           <div className="buttons">
             {project.urls.map((obj, k) => (
-              <a href={obj.url}>
+              <a href={obj.url} target="_blank">
                 <button key={k}>{obj.url_name}</button>
               </a>
             ))}

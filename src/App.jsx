@@ -30,6 +30,9 @@ function App() {
         Projects
       </h3>
       <Projects />
+      <h3 id="group-projects" className="header">
+        Group Projects
+      </h3>
       <GroupProjects />
       <h3 id="assessments" className="header">
         Assessments
@@ -39,7 +42,9 @@ function App() {
         Feedback And Reflections
       </h3>
       <Feedback />
-      <h3 className="header">Post-program goals</h3>
+      <h3 id="post" className="header">
+        Post-program goals
+      </h3>
       <Goals />
       <Footer />
     </div>

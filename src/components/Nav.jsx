@@ -13,10 +13,16 @@ function Nav() {
           <a href="#projects">Projects</a>
         </div>
         <div className="link">
+          <a href="#group-projects">Group Projects</a>
+        </div>
+        <div className="link">
           <a href="#assessments">Assessments</a>
         </div>
         <div className="link">
           <a href="#feedback">Feedback And Reflections</a>
+        </div>
+        <div className="link">
+          <a href="#post">Post</a>
         </div>
       </div>
     </div>

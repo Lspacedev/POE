@@ -12,6 +12,25 @@ function Assessments() {
       description:
         "Frontend UI challenge, recreate a website from a given design.",
     },
+    {
+      image: "/images/projects/marketplace.png",
+      urls: [
+        {
+          url_name: "Frontend",
+          url: "https://github.com/Lspacedev/marketplace-app-frontend",
+        },
+        {
+          url_name: "Backend",
+          url: "https://github.com/Lspacedev/marketplace-app-backend",
+        },
+        {
+          url_name: "Live",
+          url: "",
+        },
+      ],
+      project_name: "Marketplace App",
+      description: "A marketplace app",
+    },
   ];
 
   return (
@@ -23,7 +42,7 @@ function Assessments() {
           <p>{project.description}</p>
           <div className="buttons">
             {project.urls.map((obj, k) => (
-              <a href={obj.url}>
+              <a href={obj.url} target="_blank">
                 <button key={k}>{obj.url_name}</button>
               </a>
             ))}

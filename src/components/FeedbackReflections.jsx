@@ -3,8 +3,8 @@ function Feedback() {
     <div className="Feedback">
       <div className="Reflections">
         <div>
-          I have grown my backend skills and learned and solidified my frontend
-          and projects. I also learned planning out projects.
+          I have learned new backend skills and grown and solidified my frontend
+          skills and projects. I also learned planning out projects.
         </div>
       </div>
     </div>
