@@ -3,8 +3,10 @@ function Feedback() {
     <div className="Feedback">
       <div className="Reflections">
         <div>
-          I have learned new backend skills and grown and solidified my frontend
-          skills and projects. I also learned planning out projects.
+          I have learned new skills from frontend to backend. I've built
+          interesting projects, from React to React Native. I learned the
+          importance of planning out projects and writing algorithms and
+          pseudocode before writing the actual code.
         </div>
       </div>
     </div>

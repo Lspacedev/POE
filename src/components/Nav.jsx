@@ -22,7 +22,7 @@ function Nav() {
           <a href="#feedback">Feedback And Reflections</a>
         </div>
         <div className="link">
-          <a href="#post">Post</a>
+          <a href="#post">Post-Program</a>
         </div>
       </div>
     </div>

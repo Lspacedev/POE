@@ -91,6 +91,53 @@ function Projects() {
       project_name: "To Do App",
       description: "A simple todo app, where users can set a task due date",
     },
+    {
+      image: "/images/projects/AR.png",
+      urls: [
+        {
+          url_name: "Frontend",
+          url: "https://github.com/Lspacedev/audio-recorder",
+        },
+      ],
+      project_name: "Audio Recorder",
+      description:
+        "A simple audio recorder app, where users can record and manage audio.",
+    },
+    {
+      image: "/images/projects/shop.png",
+      urls: [
+        {
+          url_name: "Frontend",
+          url: "https://github.com/Lspacedev/shop-list-app",
+        },
+      ],
+      project_name: "Shopping list App",
+      description:
+        "Shopping List App that uses SQLite as a database to store lists and list items.",
+    },
+    {
+      image: "/images/projects/recipes.png",
+      urls: [
+        {
+          url_name: "Frontend",
+          url: "https://github.com/Lspacedev/recipe-app",
+        },
+      ],
+      project_name: "Recipe App",
+      description: "Recipe App allows users to create and manage recipes.",
+    },
+    {
+      image: "/images/projects/gallery.png",
+      urls: [
+        {
+          url_name: "Frontend",
+          url: "https://github.com/Lspacedev/image-gallery-app",
+        },
+      ],
+      project_name: "Image Gallery App",
+      description:
+        "Image Gallery App, with camera, using SQLite as a database to store image metadata.",
+    },
   ];
 
   return (

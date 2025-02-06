@@ -5,7 +5,7 @@ function Goals() {
         <h4>Short-term</h4>
         <ul>
           <li>Secure a job</li>
-          <li>Solidify my frontend and backend skills</li>
+          <li>Improve my CSS and project planning skills</li>
           <li>Build another project</li>
         </ul>
       </div>
