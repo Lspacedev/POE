@@ -1,5 +1,7 @@
 import { IoLogoGithub } from "react-icons/io";
 import { GoArrowUpRight } from "react-icons/go";
+import { TbPointFilled } from "react-icons/tb";
+
 function Projects() {
   const projects = [
     {
@@ -22,7 +24,7 @@ function Projects() {
       description:
         "Admins can create and manage hotel rooms, while clients book hotel rooms",
       stack: ["React.js", "Firebase"],
-      key_features: ["Firebase Authentication"],
+      key_features: ["Firebase Authentication", "Payments"],
       challenges:
         "Planning search functionality. Solved it by copying from existing sites",
     },
@@ -45,7 +47,7 @@ function Projects() {
       project_name: "Recipes App",
       description: "Recipe App allows users to create and manage recipes",
       stack: ["React.js", "MongoDB"],
-      key_features: ["CRUD, Jwt"],
+      key_features: ["CRUD", "JWT"],
       challenges: "Create a design. Solved it by copying from existing sites",
     },
     {
@@ -59,7 +61,7 @@ function Projects() {
       project_name: "Shopping List App",
       description: "Allows users to create and manage shopping lists",
       stack: ["React.js", "JSON Server"],
-      key_features: ["CRUD, Auth"],
+      key_features: ["CRUD", "Auth"],
       challenges:
         "Sharing lists functionality. Solved it by a shared lists field for each user",
     },
@@ -82,7 +84,7 @@ function Projects() {
       project_name: "Employee App",
       description: "Employee App allows users to create and manage employees",
       stack: ["React.js", "Firebase", "Node.js"],
-      key_features: ["CRUD, Firebase Admin Sdk"],
+      key_features: ["CRUD", "Firebase Admin SDK"],
       challenges: "Implemting csrf tokens. Solved it by following tutorial",
     },
     {
@@ -96,7 +98,7 @@ function Projects() {
       project_name: "Weather App",
       description: "A react weather app, where users can search locations",
       stack: ["React.js", "Weather API"],
-      key_features: ["View weather, Search locations"],
+      key_features: ["View weather", "Search locations"],
       challenges: "None",
     },
     {
@@ -110,7 +112,7 @@ function Projects() {
       project_name: "To Do App",
       description: "A simple todo app, where users can set a task due date",
       stack: ["React.js", "LocalStorage"],
-      key_features: ["CRUD"],
+      key_features: ["CRUD", "Local Persistence"],
       challenges: "None",
     },
     {
@@ -125,7 +127,7 @@ function Projects() {
       description:
         "A simple audio recorder app, where users can record and manage audio.",
       stack: ["React Native", "Expo"],
-      key_features: ["Record and save audio"],
+      key_features: ["Record audio", "Save audio"],
       challenges:
         "Implementing playback functionality. Solved it by changing approach",
     },
@@ -141,7 +143,7 @@ function Projects() {
       description:
         "Shopping List App that uses SQLite as a database to store lists and list items.",
       stack: ["React Native", "Expo", "SQLite"],
-      key_features: ["CRUD"],
+      key_features: ["CRUD", "Local Persistence"],
       challenges: "None",
     },
     {
@@ -193,7 +195,9 @@ function Projects() {
 
           <div className="key_features">
             {project.key_features.map((name, k) => (
-              <p key={k}>{name}</p>
+              <>
+                <p key={k}>{name}</p>
+              </>
             ))}
           </div>
           <h4>Challenges Faced and Solutions</h4>

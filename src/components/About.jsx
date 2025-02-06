@@ -4,7 +4,23 @@ function About() {
       <div className="introduction">
         <div>
           <h1>Hi, I'm Tshepo Mpogeng</h1>
-          <h3>Full Stack and Mobile App Developer</h3>
+          <h3 style={{ fontWeight: 700, fontStyle: "italic" }}>
+            I'm a
+            <span
+              style={{ borderBottom: "2px solid #a8a53c", fontWeight: 700 }}
+            >
+              {" "}
+              Full Stack{" "}
+            </span>
+            &
+            <span
+              style={{ borderBottom: "2px solid #a8a53c", fontWeight: 700 }}
+            >
+              {" "}
+              Mobile App
+            </span>{" "}
+            Developer
+          </h3>
           <p>Based in Pretoria, South Africa.</p>
         </div>
         <p>

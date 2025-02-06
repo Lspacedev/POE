@@ -58,7 +58,7 @@ function GroupProjects() {
 
           <div className="key_features">
             {project.key_features.map((name, k) => (
-              <div key={k}>{name}</div>
+              <p key={k}>{name}</p>
             ))}
           </div>
           <p>{project.collab_exp}</p>

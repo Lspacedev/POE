@@ -197,10 +197,18 @@ body,
   color: rgb(66, 66, 66);
   background-color: rgba(207, 207, 207, 0.315);
   border-radius: 15px;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .Projects .project .key_features p {
-  padding: 0px;
+  padding: 5px 0px;
+  color: rgb(66, 66, 66);
+  background-color: rgba(207, 207, 207, 0.315);
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .Projects .project .buttons {
   position: absolute;
@@ -391,7 +399,9 @@ input[type="submit"]:hover {
   color: rgb(66, 66, 66);
   background-color: rgba(207, 207, 207, 0.315);
   border-radius: 15px;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .key_features {
   display: flex;
@@ -400,7 +410,15 @@ input[type="submit"]:hover {
   padding: 0px 15px;
   color: rgb(66, 66, 66);
 }
-
+.GroupProjects .project .key_features p {
+  padding: 5px 0px;
+  color: rgb(66, 66, 66);
+  background-color: rgba(207, 207, 207, 0.315);
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .Feedback {
   padding: 30px 150px;
   background-color: whitesmoke;
