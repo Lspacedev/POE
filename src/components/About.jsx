@@ -9,7 +9,8 @@ function About() {
         </div>
         <p>
           Before Codetribe, I was a self taught developer. I have enjoyed my
-          journey at Codetribe and have learned a lot.
+          journey at Codetribe and have learned a lot of new skills and
+          technologies.
         </p>
         <a href="./src/assets/cv.pdf" download>
           <button>Download CV</button>

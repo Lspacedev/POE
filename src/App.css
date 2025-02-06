@@ -139,7 +139,7 @@ body,
   width: 500px;
   min-height: 680px;
   margin: 15px;
-  box-shadow: 1px 1px 10px #0000006b;
+  box-shadow: 1px 1px 10px #00000046;
   border-radius: 10px;
   background-color: white;
   display: flex;
@@ -183,7 +183,7 @@ body,
   position: absolute;
   bottom: 0;
   width: calc(100% - 15px);
-  height: 60px;
+  min-height: 60px;
   display: flex;
   justify-content: flex-start;
   gap: 15px;
@@ -200,9 +200,12 @@ body,
   outline: none;
   border: none;
   cursor: pointer;
+  border-radius: 7px;
   background-color: #0b0a07;
-  color: white;
-  border-radius: 5px;
+  color: whitesmoke;
+  display: flex;
+  align-items: center;
+  gap: 5px;
 }
 .Projects .project .buttons button:hover {
   background-color: #1b1b1b;
@@ -461,11 +464,18 @@ input[type="submit"]:hover {
   .Projects .project video {
     width: 100%;
   }
+  .Projects .project .buttons {
+    flex-wrap: wrap;
+
+    position: static;
+    bottom: 0;
+  }
 }
 
 @media (max-width: 768px) {
   .header {
-    padding: 0px;
+    padding: 10px 20px;
+    margin: 0px;
   }
 
   .Nav {
@@ -503,19 +513,25 @@ input[type="submit"]:hover {
     padding: 0px 0px;
   }
   .Assessments {
+    width: calc(100% - 20px);
+
     padding: 0px 10px;
 
     justify-content: center;
+  }
+  .Assessments .project {
+    align-items: flex-start;
+    margin: 15px 0px;
   }
   .About {
     padding: 50px 10px;
   }
 
   .Feedback {
-    padding: 0px 10px;
+    padding: 0px 20px;
   }
   .Goals {
-    padding: 0px 10px;
+    padding: 0px 20px;
   }
   .Cover {
     padding: 0px 10px;
@@ -538,16 +554,15 @@ input[type="submit"]:hover {
     object-position: 0% 0%;
     box-shadow: 2px 2px 3px #bbb;
   }
+  .Projects {
+    width: calc(100% - 20px);
+    padding: 0px 10px;
+  }
   .Projects .project {
     align-items: flex-start;
+    margin: 15px 0px;
   }
-  .Projects .project .buttons {
-    width: calc(100% - 20px);
 
-    padding: 10px 10px;
-    position: static;
-    bottom: 0;
-  }
   .Projects .project h3 {
     padding: 0px 10px;
   }
@@ -558,9 +573,27 @@ input[type="submit"]:hover {
     padding: 0px 10px;
   }
   .GroupProjects {
+    width: calc(100% - 20px);
+
     padding: 0px 10px;
 
     justify-content: center;
+  }
+  .GroupProjects .project {
+    align-items: flex-start;
+    margin: 15px 0px;
+    padding: 0px;
+  }
+
+  .GroupProjects .project .buttons {
+    width: calc(100% - 30px);
+
+    padding: 0px 15px;
+  }
+  .Assessments .project .buttons {
+    width: calc(100% - 30px);
+
+    padding: 0px 15px;
   }
   .Footer {
     text-align: center;
