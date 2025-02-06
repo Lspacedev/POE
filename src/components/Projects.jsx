@@ -184,14 +184,14 @@ function Projects() {
 
           <div className="stack">
             {project.stack.map((name, k) => (
-              <p>{name}</p>
+              <p key={k}>{name}</p>
             ))}
           </div>
           <h4>Features</h4>
 
           <div className="key_features">
             {project.key_features.map((name, k) => (
-              <p>{name}</p>
+              <p key={k}>{name}</p>
             ))}
           </div>
           <h4>Challenges Faced and Solutions</h4>
@@ -199,8 +199,8 @@ function Projects() {
 
           <div className="buttons">
             {project.urls.map((obj, k) => (
-              <a href={obj.url} target="_blank">
-                <button key={k}>{obj.url_name}</button>
+              <a href={obj.url} target="_blank" key={k}>
+                <button>{obj.url_name}</button>
               </a>
             ))}
           </div>

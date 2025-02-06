@@ -42,8 +42,8 @@ function Assessments() {
           <p>{project.description}</p>
           <div className="buttons">
             {project.urls.map((obj, k) => (
-              <a href={obj.url} target="_blank">
-                <button key={k}>{obj.url_name}</button>
+              <a href={obj.url} target="_blank" key={k}>
+                <button>{obj.url_name}</button>
               </a>
             ))}
           </div>

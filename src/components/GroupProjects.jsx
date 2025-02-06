@@ -41,29 +41,29 @@ function GroupProjects() {
           <h4>Members</h4>
           <div className="members">
             {project.members.map((name, k) => (
-              <div>{name}</div>
+              <div key={k}>{name}</div>
             ))}
           </div>
           <h4>Stack</h4>
 
           <div className="stack">
             {project.stack.map((name, k) => (
-              <div>{name}</div>
+              <div key={k}>{name}</div>
             ))}
           </div>
           <h4>Features</h4>
 
           <div className="key_features">
             {project.key_features.map((name, k) => (
-              <div>{name}</div>
+              <div key={k}>{name}</div>
             ))}
           </div>
           <p>{project.collab_exp}</p>
 
           <div className="buttons">
             {project.urls.map((obj, k) => (
-              <a href={obj.url} target="_blank">
-                <button key={k}>{obj.url_name}</button>
+              <a href={obj.url} target="_blank" key={k}>
+                <button>{obj.url_name}</button>
               </a>
             ))}
           </div>
