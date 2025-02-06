@@ -81,7 +81,7 @@ function Skills() {
                 <img src={skill.icon} />
               </div>
               <div className="text">{skill.text}</div>
-              <div className="text">{skill.level}</div>
+              <div className="level">{skill.level}</div>
             </div>
           ))}
         </div>
@@ -96,7 +96,7 @@ function Skills() {
                 <img src={skill.icon} />
               </div>
               <div className="text">{skill.text}</div>
-              <div className="text">{skill.level}</div>
+              <div className="level">{skill.level}</div>
             </div>
           ))}
         </div>
@@ -110,7 +110,7 @@ function Skills() {
                 <img src={skill.icon} />
               </div>
               <div className="text">{skill.text}</div>
-              <div className="text">{skill.level}</div>
+              <div className="level">{skill.level}</div>
             </div>
           ))}
         </div>
