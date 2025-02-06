@@ -139,7 +139,7 @@ body,
   width: 500px;
   height: 680px;
   margin: 15px;
-  box-shadow: 1px 1px 3px #0b0a0738;
+  box-shadow: 1px 1px 10px #0000006b;
   border-radius: 10px;
   background-color: white;
   display: flex;
@@ -151,6 +151,7 @@ body,
 .Projects .project img {
   width: 100%;
   height: 280px;
+  border-radius: 10px;
 }
 .Projects .project h3 {
   font-weight: 500;
@@ -282,7 +283,7 @@ input[type="submit"]:hover {
   width: 520px;
   height: 720px;
   margin: 15px;
-  box-shadow: 1px 1px 3px #0b0a0738;
+  box-shadow: 1px 1px 10px #0000006b;
   border-radius: 10px;
   background-color: white;
   display: flex;
@@ -293,6 +294,7 @@ input[type="submit"]:hover {
 .GroupProjects .project img {
   width: 100%;
   height: 280px;
+  border-radius: 10px;
 }
 .GroupProjects .project h3 {
   font-weight: 500;
@@ -304,6 +306,7 @@ input[type="submit"]:hover {
   padding: 0px 15px;
   margin: 2px;
   color: rgb(66, 66, 66);
+  font-size: 0.9rem;
 }
 
 .GroupProjects .project .buttons {
@@ -393,6 +396,7 @@ input[type="submit"]:hover {
 .Assessments .project img {
   width: 100%;
   height: 250px;
+  border-radius: 10px;
 }
 .Assessments .project h3 {
   font-weight: 500;
