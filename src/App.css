@@ -17,8 +17,26 @@ body,
 
 .App {
   overflow-y: auto;
+  position: relative;
 }
-
+.FAB {
+  position: sticky;
+  bottom: 0;
+  float: right;
+}
+.FAB div {
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0b0a07;
+}
+.FAB div:hover {
+  background-color: #2c2c2c;
+  cursor: pointer;
+}
 .header {
   padding: 0px 150px;
 }
@@ -85,6 +103,7 @@ body,
   background-position: 90%;
   background-repeat: no-repeat;
   background-size: cover;
+  box-shadow: 1px 1px 3px #0b0a0752;
 }
 
 .About button {
@@ -156,7 +175,7 @@ body,
   box-shadow: 0 4px 4px -1px rgba(117, 117, 117, 0.253);
 }
 .Projects .project h3 {
-  font-weight: 500;
+  font-weight: 700;
   padding: 0px 15px;
   margin: 5px 0px;
 }
@@ -174,8 +193,11 @@ body,
 }
 
 .Projects .project .stack p {
-  padding: 0px;
+  padding: 5px 0px;
   color: rgb(66, 66, 66);
+  background-color: rgba(207, 207, 207, 0.315);
+  border-radius: 15px;
+  text-align: center;
 }
 .Projects .project .key_features p {
   padding: 0px;
@@ -294,15 +316,17 @@ input[type="submit"]:hover {
   display: flex;
   flex-direction: column;
   gap: 5px;
+  position: relative;
 }
 
 .GroupProjects .project img {
   width: 100%;
   height: 280px;
   border-radius: 10px;
+  box-shadow: 0 4px 4px -1px rgba(117, 117, 117, 0.253);
 }
 .GroupProjects .project h3 {
-  font-weight: 500;
+  font-weight: 700;
   padding: 0px 15px;
   margin: 0px;
 }
@@ -315,8 +339,10 @@ input[type="submit"]:hover {
 }
 
 .GroupProjects .project .buttons {
+  position: absolute;
+  bottom: 0;
   width: 100%;
-  height: 50px;
+  min-height: 60px;
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -336,6 +362,9 @@ input[type="submit"]:hover {
   background-color: #0b0a07;
   color: white;
   border-radius: 5px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
 }
 .GroupProjects .project .buttons button:hover {
   background-color: #1b1b1b;
@@ -357,7 +386,13 @@ input[type="submit"]:hover {
   padding: 0px 15px;
   color: rgb(66, 66, 66);
 }
-
+.GroupProjects .project .stack p {
+  padding: 5px 0px;
+  color: rgb(66, 66, 66);
+  background-color: rgba(207, 207, 207, 0.315);
+  border-radius: 15px;
+  text-align: center;
+}
 .key_features {
   display: flex;
   gap: 15px;
@@ -381,12 +416,20 @@ input[type="submit"]:hover {
 .TOC {
   padding: 30px 150px;
 }
+.TOC li a {
+  text-decoration: none;
+  color: #0b0a07;
+}
+.TOC li a:hover {
+  color: #494949;
+}
 
 .Assessments {
   display: flex;
   flex-wrap: wrap;
   padding: 0px 120px;
   background-color: whitesmoke;
+  position: relative;
 }
 
 .Assessments .project {
@@ -396,15 +439,17 @@ input[type="submit"]:hover {
   box-shadow: 1px 1px 3px #0b0a0738;
   border-radius: 10px;
   background-color: white;
+  position: relative;
 }
 
 .Assessments .project img {
   width: 100%;
   height: 250px;
   border-radius: 10px;
+  box-shadow: 0 4px 4px -1px rgba(117, 117, 117, 0.253);
 }
 .Assessments .project h3 {
-  font-weight: 500;
+  font-weight: 700;
   padding: 0px 15px;
 }
 .Assessments .project p {
@@ -415,12 +460,14 @@ input[type="submit"]:hover {
 
 .Assessments .project .buttons {
   width: 100%;
-  height: 50px;
+  min-height: 60px;
   display: flex;
   justify-content: flex-start;
   align-items: center;
   gap: 15px;
   padding: 0px 15px;
+  position: absolute;
+  bottom: 0;
 }
 
 .Assessments .project .buttons a {
@@ -435,6 +482,9 @@ input[type="submit"]:hover {
   background-color: #0b0a07;
   color: white;
   border-radius: 5px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
 }
 .Assessments .project .buttons button:hover {
   background-color: #1b1b1b;
@@ -466,6 +516,18 @@ input[type="submit"]:hover {
     width: 100%;
   }
   .Projects .project .buttons {
+    flex-wrap: wrap;
+
+    position: static;
+    bottom: 0;
+  }
+  .GroupProjects .project .buttons {
+    flex-wrap: wrap;
+
+    position: static;
+    bottom: 0;
+  }
+  .Assessments .project .buttons {
     flex-wrap: wrap;
 
     position: static;

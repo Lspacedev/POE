@@ -3,14 +3,14 @@ function About() {
     <div className="About" id="about">
       <div className="introduction">
         <div>
-          <h1>Hi,I'm Tshepo Mpogeng</h1>
-          <h3>Full Stack and Mobile App developer</h3>
+          <h1>Hi, I'm Tshepo Mpogeng</h1>
+          <h3>Full Stack and Mobile App Developer</h3>
           <p>Based in Pretoria, South Africa.</p>
         </div>
         <p>
           Before Codetribe, I was a self taught developer. I have enjoyed my
-          journey at Codetribe and have learned a lot of new skills and
-          technologies.
+          journey at the Codetribe Academy and have learned a lot of new skills
+          and technologies.
         </p>
         <a href="./src/assets/cv.pdf" download>
           <button>Download CV</button>

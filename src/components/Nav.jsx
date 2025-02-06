@@ -1,6 +1,6 @@
 function Nav() {
   return (
-    <div className="Nav">
+    <div className="Nav" id="nav">
       <h3>Tshepo Mpogeng</h3>
       <div className="links">
         <div className="link current">

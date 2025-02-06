@@ -11,11 +11,15 @@ import Feedback from "./components/FeedbackReflections";
 import Cover from "./components/Cover";
 import TOC from "./components/TOC";
 import Assessments from "./components/Assesments";
+import { IoIosArrowUp } from "react-icons/io";
+
 function App() {
   return (
     <div className="App">
       <Nav />
-      <h1 className="header">Cover</h1>
+      <h1 className="header" id="cover">
+        Cover
+      </h1>
 
       <Cover />
       <h1 className="header">Table of Contents</h1>
@@ -46,6 +50,12 @@ function App() {
         Post-program goals
       </h1>
       <Goals />
+      <a href="#nav" className="FAB">
+        <div>
+          <IoIosArrowUp color="white" />
+        </div>
+      </a>
+
       <Footer />
     </div>
   );

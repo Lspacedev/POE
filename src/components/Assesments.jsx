@@ -1,3 +1,5 @@
+import { IoLogoGithub } from "react-icons/io";
+import { GoArrowUpRight } from "react-icons/go";
 function Assessments() {
   const projects = [
     {
@@ -43,7 +45,18 @@ function Assessments() {
           <div className="buttons">
             {project.urls.map((obj, k) => (
               <a href={obj.url} target="_blank" key={k}>
-                <button>{obj.url_name}</button>
+                <button>
+                  {obj.url_name === "Frontend" ||
+                  obj.url_name === "Client" ||
+                  obj.url_name === "Author" ||
+                  obj.url_name === "Admin" ||
+                  obj.url_name === "Backend" ? (
+                    <IoLogoGithub />
+                  ) : (
+                    <GoArrowUpRight />
+                  )}
+                  <div>{obj.url_name}</div>
+                </button>
               </a>
             ))}
           </div>

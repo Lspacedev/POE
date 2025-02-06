@@ -1,3 +1,6 @@
+import { IoLogoGithub } from "react-icons/io";
+import { GoArrowUpRight } from "react-icons/go";
+
 function GroupProjects() {
   const projects = [
     {
@@ -48,7 +51,7 @@ function GroupProjects() {
 
           <div className="stack">
             {project.stack.map((name, k) => (
-              <div key={k}>{name}</div>
+              <p key={k}>{name}</p>
             ))}
           </div>
           <h4>Features</h4>
@@ -63,7 +66,18 @@ function GroupProjects() {
           <div className="buttons">
             {project.urls.map((obj, k) => (
               <a href={obj.url} target="_blank" key={k}>
-                <button>{obj.url_name}</button>
+                <button>
+                  {obj.url_name === "Frontend" ||
+                  obj.url_name === "Client" ||
+                  obj.url_name === "Author" ||
+                  obj.url_name === "Admin" ||
+                  obj.url_name === "Backend" ? (
+                    <IoLogoGithub />
+                  ) : (
+                    <GoArrowUpRight />
+                  )}
+                  <div>{obj.url_name}</div>
+                </button>
               </a>
             ))}
           </div>
