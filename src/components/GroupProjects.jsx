@@ -17,6 +17,7 @@ function GroupProjects() {
         },
       ],
       project_name: "Restaurant Booking App",
+      role: "Backend and Admin Dashboard",
       description:
         "Restaurant booking app where restaurants can add and manage their restaurants",
       members: ["Tshepo", "Reabetswe"],
@@ -32,7 +33,11 @@ function GroupProjects() {
         <div className="project" key={i}>
           <img src={project.image} />
           <h3>{project.project_name}</h3>
+
           <p>{project.description}</p>
+          <div>
+            <h4>Role: </h4> <p>{project.role}</p>
+          </div>
           <h4>Members</h4>
           <div className="members">
             {project.members.map((name, k) => (
