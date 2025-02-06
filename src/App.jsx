@@ -15,36 +15,36 @@ function App() {
   return (
     <div className="App">
       <Nav />
-      <h3 className="header">Cover</h3>
+      <h1 className="header">Cover</h1>
 
       <Cover />
-      <h3 className="header">Table of Contents</h3>
+      <h1 className="header">Table of Contents</h1>
 
       <TOC />
       <About />
-      <h3 id="skills" className="header">
+      <h1 id="skills" className="header">
         Skills
-      </h3>
+      </h1>
       <Skills />
-      <h3 id="projects" className="header">
+      <h1 id="projects" className="header">
         Projects
-      </h3>
+      </h1>
       <Projects />
-      <h3 id="group-projects" className="header">
+      <h1 id="group-projects" className="header">
         Group Projects
-      </h3>
+      </h1>
       <GroupProjects />
-      <h3 id="assessments" className="header">
+      <h1 id="assessments" className="header">
         Assessments
-      </h3>
+      </h1>
       <Assessments />
-      <h3 id="feedback" className="header">
+      <h1 id="feedback" className="header">
         Feedback And Reflections
-      </h3>
+      </h1>
       <Feedback />
-      <h3 id="post" className="header">
+      <h1 id="post" className="header">
         Post-program goals
-      </h3>
+      </h1>
       <Goals />
       <Footer />
     </div>

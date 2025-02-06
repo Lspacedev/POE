@@ -4,7 +4,7 @@ function About() {
       <div className="introduction">
         <div>
           <h1>Hi,I'm Tshepo Mpogeng</h1>
-          <h2>Full Stack and Mobile App developer</h2>
+          <h3>Full Stack and Mobile App developer</h3>
           <p>Based in Pretoria, South Africa.</p>
         </div>
         <p>
