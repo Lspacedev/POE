@@ -1,8 +1,39 @@
-# React + Vite
+# Portfolio of Evidence
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Portfolio of the projects I completed at the Codetribe Academy.
 
-Currently, two official plugins are available:
+### Live site
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[https://poe-kappa.vercel.app/](https://poe-kappa.vercel.app/)
+
+## Prerequisites
+
+- React
+
+## Installation
+
+1. Clone the repository
+
+```bash
+git@github.com:Lspacedev/POE.git
+```
+
+2. Navigate to the project folder
+
+```bash
+cd POE
+```
+
+3.  Install all dependencies
+
+```bash
+npm install
+```
+
+``
+
+4. Run the project
+
+```bash
+npm run dev
+```
