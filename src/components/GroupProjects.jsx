@@ -13,7 +13,7 @@ function GroupProjects() {
         },
         {
           url_name: "Live",
-          url: "",
+          url: "https://restaurant-app-admin.vercel.app",
         },
       ],
       project_name: "Restaurant Booking App",
@@ -39,11 +39,15 @@ function GroupProjects() {
               <div>{name}</div>
             ))}
           </div>
+          <h4>Stack</h4>
+
           <div className="stack">
             {project.stack.map((name, k) => (
               <div>{name}</div>
             ))}
           </div>
+          <h4>Features</h4>
+
           <div className="key_features">
             {project.key_features.map((name, k) => (
               <div>{name}</div>

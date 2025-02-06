@@ -265,10 +265,12 @@ input[type="submit"]:hover {
 .GroupProjects .project h3 {
   font-weight: 500;
   padding: 0px 15px;
+  margin: 0px;
 }
 .GroupProjects .project p {
   width: 90%;
   padding: 0px 15px;
+  margin: 2px;
 }
 
 .GroupProjects .project .buttons {
