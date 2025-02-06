@@ -21,6 +21,8 @@ function Projects() {
         "Admins can create and manage hotel rooms, while clients book hotel rooms",
       stack: ["React.js", "Firebase"],
       key_features: ["Firebase Authentication"],
+      challenges:
+        "Planning search functionality. Solved it by copying from existing sites",
     },
     {
       image: "/images/projects/recipe.png",
@@ -42,6 +44,7 @@ function Projects() {
       description: "Recipe App allows users to create and manage recipes",
       stack: ["React.js", "MongoDB"],
       key_features: ["CRUD, Jwt"],
+      challenges: "Create a design. Solved it by copying from existing sites",
     },
     {
       image: "/images/projects/shopping.png",
@@ -55,6 +58,8 @@ function Projects() {
       description: "Allows users to create and manage shopping lists",
       stack: ["React.js", "JSON Server"],
       key_features: ["CRUD, Auth"],
+      challenges:
+        "Sharing lists functionality. Solved it by a shared lists field for each user",
     },
     {
       image: "/images/projects/employee.png",
@@ -76,6 +81,7 @@ function Projects() {
       description: "Employee App allows users to create and manage employees",
       stack: ["React.js", "Firebase", "Node.js"],
       key_features: ["CRUD, Firebase Admin Sdk"],
+      challenges: "Implemting csrf tokens. Solved it by following tutorial",
     },
     {
       image: "/images/projects/weather.png",
@@ -89,6 +95,7 @@ function Projects() {
       description: "A react weather app, where users can search locations",
       stack: ["React.js", "Weather API"],
       key_features: ["View weather, Search locations"],
+      challenges: "None",
     },
     {
       image: "/images/projects/todo.png",
@@ -102,6 +109,7 @@ function Projects() {
       description: "A simple todo app, where users can set a task due date",
       stack: ["React.js", "LocalStorage"],
       key_features: ["CRUD"],
+      challenges: "None",
     },
     {
       image: "/images/projects/AR.png",
@@ -116,6 +124,8 @@ function Projects() {
         "A simple audio recorder app, where users can record and manage audio.",
       stack: ["React Native", "Expo"],
       key_features: ["Record and save audio"],
+      challenges:
+        "Implementing playback functionality. Solved it by changing approach",
     },
     {
       image: "/images/projects/shop.png",
@@ -130,6 +140,7 @@ function Projects() {
         "Shopping List App that uses SQLite as a database to store lists and list items.",
       stack: ["React Native", "Expo", "SQLite"],
       key_features: ["CRUD"],
+      challenges: "None",
     },
     {
       image: "/images/projects/recipes.png",
@@ -143,6 +154,7 @@ function Projects() {
       description: "Recipe App allows users to create and manage recipes.",
       stack: ["React Native", "Expo", "Node.js"],
       key_features: ["CRUD", "Fetch from API"],
+      challenges: "None",
     },
     {
       image: "/images/projects/gallery.png",
@@ -157,6 +169,7 @@ function Projects() {
         "Image Gallery App that uses SQLite as a database to store image metadata.",
       stack: ["React Native", "Expo"],
       key_features: ["Take images", "Save images"],
+      challenges: "Implementing map. Solved it by following tutorial",
     },
   ];
 
@@ -181,6 +194,9 @@ function Projects() {
               <p>{name}</p>
             ))}
           </div>
+          <h4>Challenges Faced and Solutions</h4>
+          <p>{project.challenges}</p>
+
           <div className="buttons">
             {project.urls.map((obj, k) => (
               <a href={obj.url} target="_blank">
