@@ -72,6 +72,9 @@ function Skills() {
   ];
   return (
     <div className="Skills">
+      <h1 id="skills" className="header1">
+        Skills
+      </h1>
       <div className="frontend">
         <h4>Frontend</h4>
         <div className="skills-div">

@@ -1,6 +1,9 @@
 function Goals() {
   return (
     <div className="Goals">
+      <h1 id="post" className="header1">
+        Post-program goals
+      </h1>
       <div className="short">
         <h4>Short-term</h4>
         <ul>

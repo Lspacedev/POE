@@ -32,57 +32,62 @@ function GroupProjects() {
 
   return (
     <div className="GroupProjects">
-      {projects.map((project, i) => (
-        <div className="project" key={i}>
-          <img src={project.image} />
-          <h3>{project.project_name}</h3>
+      <h1 id="group-projects" className="header1">
+        Group Projects
+      </h1>
+      <div className="groupprojects-div">
+        {projects.map((project, i) => (
+          <div className="project" key={i}>
+            <img src={project.image} />
+            <h3>{project.project_name}</h3>
 
-          <p>{project.description}</p>
-          <div>
-            <h4>Role: </h4> <p>{project.role}</p>
-          </div>
-          <h4>Members</h4>
-          <div className="members">
-            {project.members.map((name, k) => (
-              <div key={k}>{name}</div>
-            ))}
-          </div>
-          <h4>Stack</h4>
+            <p>{project.description}</p>
+            <div>
+              <h4>Role: </h4> <p>{project.role}</p>
+            </div>
+            <h4>Members</h4>
+            <div className="members">
+              {project.members.map((name, k) => (
+                <div key={k}>{name}</div>
+              ))}
+            </div>
+            <h4>Stack</h4>
 
-          <div className="stack">
-            {project.stack.map((name, k) => (
-              <p key={k}>{name}</p>
-            ))}
-          </div>
-          <h4>Features</h4>
+            <div className="stack">
+              {project.stack.map((name, k) => (
+                <p key={k}>{name}</p>
+              ))}
+            </div>
+            <h4>Features</h4>
 
-          <div className="key_features">
-            {project.key_features.map((name, k) => (
-              <p key={k}>{name}</p>
-            ))}
-          </div>
-          <p>{project.collab_exp}</p>
+            <div className="key_features">
+              {project.key_features.map((name, k) => (
+                <p key={k}>{name}</p>
+              ))}
+            </div>
+            <p>{project.collab_exp}</p>
 
-          <div className="buttons">
-            {project.urls.map((obj, k) => (
-              <a href={obj.url} target="_blank" key={k}>
-                <button>
-                  {obj.url_name === "Frontend" ||
-                  obj.url_name === "Client" ||
-                  obj.url_name === "Author" ||
-                  obj.url_name === "Admin" ||
-                  obj.url_name === "Backend" ? (
-                    <IoLogoGithub />
-                  ) : (
-                    <GoArrowUpRight />
-                  )}
-                  <div>{obj.url_name}</div>
-                </button>
-              </a>
-            ))}
+            <div className="buttons">
+              {project.urls.map((obj, k) => (
+                <a href={obj.url} target="_blank" key={k}>
+                  <button>
+                    {obj.url_name === "Frontend" ||
+                    obj.url_name === "Client" ||
+                    obj.url_name === "Author" ||
+                    obj.url_name === "Admin" ||
+                    obj.url_name === "Backend" ? (
+                      <IoLogoGithub />
+                    ) : (
+                      <GoArrowUpRight />
+                    )}
+                    <div>{obj.url_name}</div>
+                  </button>
+                </a>
+              ))}
+            </div>
           </div>
-        </div>
-      ))}
+        ))}
+      </div>
     </div>
   );
 }

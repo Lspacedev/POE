@@ -1,29 +1,45 @@
+import { FaLocationDot } from "react-icons/fa6";
+
 function About() {
   return (
     <div className="About" id="about">
       <div className="introduction">
         <div>
-          <h1>Hi, I'm Tshepo Mpogeng</h1>
-          <h3 style={{ fontWeight: 700, fontStyle: "italic" }}>
-            I'm a
-            <span
-              style={{ borderBottom: "2px solid #a8a53c", fontWeight: 700 }}
-            >
-              {" "}
-              Full Stack{" "}
-            </span>
-            &
-            <span
-              style={{ borderBottom: "2px solid #a8a53c", fontWeight: 700 }}
-            >
-              {" "}
-              Mobile App
-            </span>{" "}
-            Developer
+          {/* style={{ color: "#a8a53c" }} */}
+          <h3 style={{ margin: "2px", fontWeight: 700 }}>Hi,</h3>
+          <h1
+            style={{
+              margin: "2px",
+              fontWeight: 900,
+              fontSize: "3.2rem",
+            }}
+          >
+            I'm Tshepo Mpogeng.
+          </h1>
+          <h3 style={{ fontWeight: 300, margin: "2px", fontSize: "1.9rem" }}>
+            I'm a<span> Full Stack </span>&<span> Mobile App</span> Developer
           </h3>
-          <p>Based in Pretoria, South Africa.</p>
+          <div
+            style={{
+              fontWeight: 320,
+              margin: "2px",
+              fontSize: "1.4rem",
+              display: "flex",
+              alignItems: "center",
+              gap: "5px",
+            }}
+          >
+            <p
+              style={{
+                margin: "2px",
+              }}
+            >
+              Based in Pretoria, South Africa.
+            </p>{" "}
+            <FaLocationDot />
+          </div>
         </div>
-        <p>
+        <p style={{ fontWeight: 300, fontSize: "1.2rem" }}>
           Before Codetribe, I was a self taught developer. I have enjoyed my
           journey at the Codetribe Academy and have learned a lot of new skills
           and technologies.

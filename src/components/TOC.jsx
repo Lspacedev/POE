@@ -1,6 +1,8 @@
 function TOC() {
   return (
     <div className="TOC">
+      <h1 className="header1">Table of Contents</h1>
+
       <ul>
         <li>
           <a href="#about">Introduction</a>

@@ -37,3 +37,5 @@ npm install
 ```bash
 npm run dev
 ```
+
+<a href="https://www.freepik.com/free-vector/horizontally-vertically-seamless-abstract-vector-pattern_149274070.htm#fromView=image_search_similar&page=1&position=0&uuid=7873bca9-c634-4f1d-8766-28a477f1771a&query=texture">Image by callmetak on Freepik</a>

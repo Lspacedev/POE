@@ -1,6 +1,9 @@
 function Feedback() {
   return (
     <div className="Feedback">
+      <h1 id="feedback" className="header1">
+        Feedback And Reflections
+      </h1>
       <div className="Reflections">
         <div>
           I have learned new skills from frontend to backend. I've built

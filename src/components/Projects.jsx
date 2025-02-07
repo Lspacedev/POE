@@ -179,50 +179,53 @@ function Projects() {
 
   return (
     <div className="Projects">
-      {projects.map((project, i) => (
-        <div className="project" key={i}>
-          <img src={project.image} />
-          <h3>{project.project_name}</h3>
-          <p>{project.description}</p>
-          <h4>Stack</h4>
+      <h1 id="projects" className="header1">
+        Projects
+      </h1>
+      <div className="projects-div">
+        {projects.map((project, i) => (
+          <div className="project" key={i}>
+            <img src={project.image} />
+            <h3>{project.project_name}</h3>
+            <p>{project.description}</p>
+            <h4>Stack</h4>
 
-          <div className="stack">
-            {project.stack.map((name, k) => (
-              <p key={k}>{name}</p>
-            ))}
-          </div>
-          <h4>Features</h4>
-
-          <div className="key_features">
-            {project.key_features.map((name, k) => (
-              <>
+            <div className="stack">
+              {project.stack.map((name, k) => (
                 <p key={k}>{name}</p>
-              </>
-            ))}
-          </div>
-          <h4>Challenges Faced and Solutions</h4>
-          <p>{project.challenges}</p>
+              ))}
+            </div>
+            <h4>Features</h4>
 
-          <div className="buttons">
-            {project.urls.map((obj, k) => (
-              <a href={obj.url} target="_blank" key={k}>
-                <button>
-                  {obj.url_name === "Frontend" ||
-                  obj.url_name === "Client" ||
-                  obj.url_name === "Author" ||
-                  obj.url_name === "Admin" ||
-                  obj.url_name === "Backend" ? (
-                    <IoLogoGithub />
-                  ) : (
-                    <GoArrowUpRight />
-                  )}
-                  <div>{obj.url_name}</div>
-                </button>
-              </a>
-            ))}
+            <div className="key_features">
+              {project.key_features.map((name, k) => (
+                <p key={k}>{name}</p>
+              ))}
+            </div>
+            <h4>Challenges Faced and Solutions</h4>
+            <p>{project.challenges}</p>
+
+            <div className="buttons">
+              {project.urls.map((obj, k) => (
+                <a href={obj.url} target="_blank" key={k}>
+                  <button>
+                    {obj.url_name === "Frontend" ||
+                    obj.url_name === "Client" ||
+                    obj.url_name === "Author" ||
+                    obj.url_name === "Admin" ||
+                    obj.url_name === "Backend" ? (
+                      <IoLogoGithub />
+                    ) : (
+                      <GoArrowUpRight />
+                    )}
+                    <div>{obj.url_name}</div>
+                  </button>
+                </a>
+              ))}
+            </div>
           </div>
-        </div>
-      ))}
+        ))}
+      </div>
     </div>
   );
 }
