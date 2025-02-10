@@ -91,10 +91,10 @@ body,
 
   background-image: linear-gradient(
       to left,
-      rgb(245, 245, 245),
-      rgba(255, 255, 255, 0.61)
+      rgba(245, 245, 245, 0.849),
+      rgba(255, 255, 255, 0.253)
     ),
-    url("/public/images/377489366_a64ed899-be93-408a-8187-aa85839a583a.jpg");
+    url("/images/377489366_a64ed899-be93-408a-8187-aa85839a583a.jpg");
 
   background-position: center;
   background-repeat: no-repeat;
@@ -190,10 +190,10 @@ body,
 
   background-image: linear-gradient(
       to left,
-      rgb(245, 245, 245),
-      rgba(255, 255, 255, 0.61)
+      rgba(245, 245, 245, 0.849),
+      rgba(255, 255, 255, 0.253)
     ),
-    url("/public/images/377489366_a64ed899-be93-408a-8187-aa85839a583a.jpg");
+    url("/images/377489366_a64ed899-be93-408a-8187-aa85839a583a.jpg");
 
   background-position: center;
   background-repeat: repeat;
@@ -504,10 +504,10 @@ input[type="submit"]:hover {
 
   background-image: linear-gradient(
       to left,
-      rgb(245, 245, 245),
-      rgba(255, 255, 255, 0.61)
+      rgba(245, 245, 245, 0.849),
+      rgba(255, 255, 255, 0.253)
     ),
-    url("/public/images/377489366_a64ed899-be93-408a-8187-aa85839a583a.jpg");
+    url("/images/377489366_a64ed899-be93-408a-8187-aa85839a583a.jpg");
 
   background-position: center;
   background-repeat: no-repeat;
@@ -518,11 +518,10 @@ input[type="submit"]:hover {
   background-color: whitesmoke;
   background-image: linear-gradient(
       to left,
-      rgb(224, 224, 224),
-      rgba(255, 255, 255, 0.61)
+      rgba(245, 245, 245, 0.849),
+      rgba(255, 255, 255, 0.253)
     ),
-    url("/public/images/377489366_a64ed899-be93-408a-8187-aa85839a583a.jpg");
-
+    url("/images/377489366_a64ed899-be93-408a-8187-aa85839a583a.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -531,6 +530,11 @@ input[type="submit"]:hover {
   display: flex;
   align-items: center;
   gap: 5px;
+}
+.Cover p {
+  font-size: 1.2rem;
+  margin: 0px;
+  padding: 0px;
 }
 .TOC {
   padding: 30px 150px;
@@ -564,10 +568,10 @@ input[type="submit"]:hover {
 
   background-image: linear-gradient(
       to left,
-      rgb(245, 245, 245),
-      rgba(255, 255, 255, 0.61)
+      rgba(245, 245, 245, 0.849),
+      rgba(255, 255, 255, 0.253)
     ),
-    url("/public/images/377489366_a64ed899-be93-408a-8187-aa85839a583a.jpg");
+    url("/images/377489366_a64ed899-be93-408a-8187-aa85839a583a.jpg");
 
   background-position: center;
   background-repeat: no-repeat;

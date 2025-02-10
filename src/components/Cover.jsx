@@ -15,28 +15,28 @@ function Cover() {
             <FaLocationDot />
             Location:
           </h4>{" "}
-          The Innovation Hub
+          <p> The Innovation Hub</p>
         </div>
         <div>
           <h4>
             <MdEmail />
             Email:
           </h4>{" "}
-          tshepompogeng83@gmail.com
+          <p>tshepompogeng83@gmail.com</p>
         </div>
         <div>
           <h4>
             <FaPhone />
             Phone Number:{" "}
           </h4>
-          079 161 6960
+          <p> 079 161 6960</p>
         </div>
         <div>
           <h4>
             <MdDateRange />
             Date:
           </h4>{" "}
-          13/01/2025
+          <p>13/01/2025</p>
         </div>
       </div>
     </div>
