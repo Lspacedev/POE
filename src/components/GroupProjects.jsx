@@ -24,9 +24,9 @@ function GroupProjects() {
       description:
         "Restaurant booking app where restaurants can add and manage their restaurants",
       members: ["Tshepo", "Reabetswe"],
-      stack: ["Reactjs", "React Native", "Node", "MongoDb"],
+      stack: ["React.js", "React Native", "Node.js", "MongoDB"],
       key_features: ["Authentication", "CRUD"],
-      collab_exp: "Worker together through Slack and Trello",
+      collab_exp: "Worked together through Slack and Trello",
     },
   ];
 
@@ -65,6 +65,8 @@ function GroupProjects() {
                 <p key={k}>{name}</p>
               ))}
             </div>
+            <h4>Collaboration Experience</h4>
+
             <p>{project.collab_exp}</p>
 
             <div className="buttons">

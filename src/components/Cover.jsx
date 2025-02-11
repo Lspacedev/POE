@@ -9,33 +9,33 @@ function Cover() {
       <h1 className="header1" id="cover">
         Cover
       </h1>
-      <div>
+      <div className="cover-text">
         <div>
-          <h4>
+          <h3>
             <FaLocationDot />
             Location:
-          </h4>{" "}
+          </h3>{" "}
           <p> The Innovation Hub</p>
         </div>
         <div>
-          <h4>
+          <h3>
             <MdEmail />
             Email:
-          </h4>{" "}
+          </h3>{" "}
           <p>tshepompogeng83@gmail.com</p>
         </div>
         <div>
-          <h4>
+          <h3>
             <FaPhone />
             Phone Number:{" "}
-          </h4>
+          </h3>
           <p> 079 161 6960</p>
         </div>
         <div>
-          <h4>
+          <h3>
             <MdDateRange />
             Date:
-          </h4>{" "}
+          </h3>{" "}
           <p>13/01/2025</p>
         </div>
       </div>

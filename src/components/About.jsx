@@ -35,8 +35,8 @@ function About() {
               }}
             >
               Based in Pretoria, South Africa.
-            </p>{" "}
-            <FaLocationDot />
+            </p>
+            <FaLocationDot className="icon" />
           </div>
         </div>
         <p style={{ fontWeight: 300, fontSize: "1.2rem" }}>
