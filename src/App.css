@@ -57,6 +57,10 @@ body,
   font-family: "Courier New", Courier, monospace;
   background-color: #0b0a07;
   color: white;
+  position: sticky;
+  top: 0;
+  overflow: hidden;
+  z-index: 3;
 }
 
 .Nav h3 {

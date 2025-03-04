@@ -34,11 +34,11 @@ function App() {
       <Feedback />
 
       <Goals />
-      <a href="#nav" className="FAB">
+      {/* <a href="#nav" className="FAB">
         <div>
           <IoIosArrowUp color="white" />
         </div>
-      </a>
+      </a> */}
 
       <Footer />
     </div>
